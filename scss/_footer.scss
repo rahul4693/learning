@@ -1,0 +1,18 @@
+.footer-area{
+    .footer-bottom-social-icon{
+        .fa{
+            color: $color-white;
+        }
+    }
+}
+
+@media(max-width: 780px){
+    .footer{
+        .footer-area{
+            text-align: center;
+            .footer-bottom-social-icon{
+                margin-bottom: 20px;
+            }
+        }
+    }
+}

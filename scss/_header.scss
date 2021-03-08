@@ -1,0 +1,36 @@
+
+.header-area{	
+	background-image: url(../img/h1_hero.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.navbar{
+	padding-top: 25px;
+}
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: $color-white;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 30px;
+    }
+
+.banner-content{
+	/*position: absolute;
+	top: 0;*/
+	color: $color-white;
+	width: 50%;
+	margin-top: 110px;
+	padding-bottom: 180px !important;
+	h1{
+	font-size: 60px;
+    font-weight: 700;
+    color: #fff;
+    line-height: 1.3;
+    margin-bottom: 22px;
+	}
+	.btn{
+		padding: 10px 40px;
+	}
+}
+

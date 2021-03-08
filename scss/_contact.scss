@@ -1,0 +1,58 @@
+.company-contact-section{
+    .contact-title{
+        h1{
+            font-size: 27px;
+            font-weight: 600;
+            color: $color-primary;
+        }
+    }
+    .contact-form{
+        .contact-text-area{
+            height: 200px;
+        }
+        .btn-send{
+            color: $color-light-violet;
+            border: 1px solid $color-light-violet;
+            padding: 15px 40px;
+            &:hover{
+                background-color:$color-light-violet;
+                color: $color-white;
+            }
+        }
+    }
+    .contact-info{
+        .fa{
+            font-size: 40px;
+            color: $color-fade-black;
+        }
+        .fa-envelope{
+            font-size: 28px;
+        }
+        h2{
+            font-size: 16px;
+        }
+        p{
+            font-size: 16px;
+            color: $color-fade-black;
+            margin-bottom: 0px;
+        }
+
+    }
+}
+@media(max-width:780px){
+    .company-google-map{
+        iframe{
+            width: 460px;
+            height: 350px;
+        }
+    }
+
+    .contact-form{
+        .form-control-email{
+                margin-top: 25px;
+        }
+    }
+    .contact-info {
+        margin-top: 20px;
+    }
+}
